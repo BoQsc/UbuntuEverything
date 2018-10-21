@@ -34,6 +34,7 @@ TimedLoginEnable=false
 ```
 
 
+https://www.google.com/search?client=ubuntu&hs=Ryg&channel=fs&ei=y9LMW6m6McausQGDypXQBg&q=Linux+Directory+Structure+explained+site%3Alinuxnix.com&oq=Linux+Directory+Structure+explained+site%3Alinuxnix.com&gs_l=psy-ab.3...9294.14468.0.14692.9.9.0.0.0.0.123.755.5j4.9.0....0...1c.1.64.psy-ab..1.3.329...33i160k1.0.JK-XPpVn1Co
 ### Linux directory structure: explained
 * /bin - Basic operating system administration commands For Local Users and Administrators
 * /sbin - Advanced, very technical, require more knowledge, operating system administration commands used by Administrators only.
