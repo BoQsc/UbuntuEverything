@@ -38,8 +38,8 @@ https://www.google.com/search?client=ubuntu&hs=Ryg&channel=fs&ei=y9LMW6m6McausQG
 ### Linux directory structure: explained
 * /bin - Basic operating system administration commands For Local Users and Administrators
 * /sbin - Advanced, very technical, require more knowledge, operating system administration commands used by Administrators only.
- * /usr/bin - extensions of the /bin, the commands that weren't considered as part of initial operating system.
- * /usr/sbin - extensinos of /sbin the commands that weren't considered as part of initial operating system.
+  * /usr/bin - extensions of the /bin, the commands that weren't considered as part of initial operating system.
+  * /usr/sbin - extensinos of /sbin the commands that weren't considered as part of initial operating system.
  
  
  
