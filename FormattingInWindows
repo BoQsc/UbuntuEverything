@@ -4,6 +4,136 @@ comparing mount vol output and extracting newly created partitions for the selec
 then selecting second and third partitions and format them into fat32
 
 
+@echo off
+
+
+REM https://superuser.com/a/1310459/740880
+
+
+::#################################################################################################################################
+:: Elevate this script                                                                                                            #
+::#################################################################################################################################
+
+(
+    :: Check Admin rights and create VBS Script to elevate
+    >nul fsutil dirty query %SYSTEMDRIVE% 2>&1 || (
+
+        :: Very little red console
+        mode con cols=80 lines=3 
+        color cf
+
+        :: Message
+        title Please wait...
+        echo.
+        echo                         Requesting elevated shell...
+
+        :: Create VBS script
+        echo Set UAC = CreateObject^("Shell.Application"^)>"%TEMP%\elevate.vbs"
+        echo UAC.ShellExecute "%~f0", "%TEMP%\elevate.vbs", "", "runas", 1 >>"%TEMP%\elevate.vbs"
+        if exist "%TEMP%\elevate.vbs" start /b /wait >nul cscript /nologo "%TEMP%\elevate.vbs" 2>&1
+
+        :: Delete elevation script if exist
+        if exist "%TEMP%\elevate.vbs" >nul del /f "%TEMP%\elevate.vbs" 2>&1
+
+        exit /b
+    )    
+)
+
+pushd "%~dp0"
+
+
+
+for /f "tokens=2,3,4,5,6,7,8,9" %%a in ('echo list volume ^| diskpart') do (
+	if ["%%d"]==["Removable"] if ["%%c"]==["RAW"] if not ["%%f"]==["KB"] format %%b: /Q /fs=fat32
+
+	
+	REM if %%b==E echo Volume number is %%a
+)
+pause
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------
+
+
+
 
 
 C:\Users\vaida>
