@@ -1,0 +1,15 @@
+The Boot process 
+
+Grub Menu -> Plymouth -> X Windowing System -> Display Manager/Login manager -> Desktop environment ( Which also includes Window manager)
+Grub Menu -> Plymouth -> X Windowing System -> Display Manager/Login manager -> Window Mananager 
+Grub Menu -> Plymouth -> X Windowing System -> Default Shell prompt 
+
+Graphical Boot/Splash Screen: Plymouth
+
+
+Canonical Ubuntu Booting Process
+Boot Menu: Grub 2
+Boot Screen: Plymouth https://en.wikipedia.org/wiki/Bootsplash#FBSPLASH
+Display Server: X11
+Display Manager: Gnome Display Manager (gdm)
+Desktop Environment: Gnome Shell
