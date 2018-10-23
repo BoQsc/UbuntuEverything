@@ -1,3 +1,10 @@
+Determine the new partitions created by gdisk
+The newly created partitions are assigned letters by acceding order.
+comparing mount vol output and extracting newly created partitions for the selected disk
+then selecting second and third partitions and format them into fat32
+
+
+
 
 C:\Users\vaida>
 C:\Users\vaida>mountvol
