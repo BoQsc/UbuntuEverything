@@ -4,6 +4,27 @@ comparing mount vol output and extracting newly created partitions for the selec
 then selecting second and third partitions and format them into fat32
 
 
+C:\Users\vaida\Desktop\Grub LOG\grub-2.02~rc2-for-windows>
+C:\Users\vaida\Desktop\Grub LOG\grub-2.02~rc2-for-windows>grub-install --boot-directory=H:\boot --efi-directory=F:\ --target=x86_64-efi --force --removable
+Installing for x86_64-efi platform.
+Installation finished. No error reported.
+
+C:\Users\vaida\Desktop\Grub LOG\grub-2.02~rc2-for-windows>grub-install --boot-directory=F:\boot                     --target=i386-pc    --force --removable %installDevice%
+Installing for i386-pc platform.
+^C
+C:\Users\vaida\Desktop\Grub LOG\grub-2.02~rc2-for-windows>grub-install --boot-directory=H:\boot                     --target=i386-pc    --force --removable \\?\PhysicalDrive1
+Installing for i386-pc platform.
+Installation finished. No error reported.
+
+C:\Users\vaida\Desktop\Grub LOG\grub-2.02~rc2-for-windows>
+
+
+
+
+
+
+
+
 @echo off
 
 
