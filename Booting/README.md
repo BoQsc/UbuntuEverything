@@ -4,7 +4,7 @@
 ## Information references
 
 ### Desktop Environment
-[freedesktop.org Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/)  
+[freedesktop.org -> Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/)  
 [Gnome Technologies](https://www.gnome.org/technologies/) -> [GDM](https://wiki.gnome.org/Projects/GDM) -> [Greeter](https://wiki.gnome.org/Projects/GDM/NewDesign/Greeter)
 
 
