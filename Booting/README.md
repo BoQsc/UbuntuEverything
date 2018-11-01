@@ -6,7 +6,7 @@
 ### Desktop Environment
 Power ON -> BIOS/UEFI  
 BIOS -> MBR, UEFI -> GPT  
-         ⬇     
+         ⬇       ⬇  
 [freedesktop.org -> Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/)  
 [Gnome Technologies](https://www.gnome.org/technologies/) -> [GDM](https://wiki.gnome.org/Projects/GDM) -> [Greeter](https://wiki.gnome.org/Projects/GDM/NewDesign/Greeter)  
 [Gnome Technologies](https://www.gnome.org/technologies/) -> [GnomeShell](https://wiki.gnome.org/Projects/GnomeShell)
