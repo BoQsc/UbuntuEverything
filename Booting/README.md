@@ -5,7 +5,7 @@
 
 ### Desktop Environment
 [freedesktop.org Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/)  
-[Gnome Technologies](https://www.gnome.org/technologies/)
+[Gnome Technologies](https://www.gnome.org/technologies/) -> [GDM](https://wiki.gnome.org/Projects/GDM) -> [Greeter](https://wiki.gnome.org/Projects/GDM/NewDesign/Greeter)
 
 
 ### General Linux Booting
