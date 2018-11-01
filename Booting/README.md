@@ -9,4 +9,4 @@
 
 
 ### General Linux Booting
-[How Linux Boots Google?](https://www.google.lt/search?q=How+Linux+Boots&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiMtMOSnbPeAhUDFCwKHfiIBZYQ_AUIDigB&biw=1920&bih=938#imgrc=2AoPSP2LbgRFzM)
+[How Linux Boots, Google?](https://www.google.lt/search?q=How+Linux+Boots&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiMtMOSnbPeAhUDFCwKHfiIBZYQ_AUIDigB&biw=1920&bih=938#imgrc=2AoPSP2LbgRFzM)
