@@ -3,7 +3,7 @@
 
 ## Information references
 
-### Desktop Environment in depth
+### Desktop Environment
 [freedesktop.org Plymouth](https://www.freedesktop.org/wiki/Software/Plymouth/)  
 [Gnome Technologies](https://www.gnome.org/technologies/)
 
