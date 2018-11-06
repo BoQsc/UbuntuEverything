@@ -1,5 +1,12 @@
 ## Repositories
-[freedesktop plymouth gitlab](https://gitlab.freedesktop.org/plymouth/plymouth)
+[freedesktop plymouth gitlab](https://gitlab.freedesktop.org/plymouth/plymouth)  
+[freedesktop libinput gitlab](https://gitlab.freedesktop.org/libinput/libinput)  
+[gnome shell gitlab](https://gitlab.gnome.org/GNOME/gnome-shell)  
+[gnome shell gitlab-official-extensions](https://gitlab.gnome.org/GNOME/gnome-shell-extensions)  
+[gnome shell desktop-icons extension gitlab](https://gitlab.gnome.org/World/ShellExtensions/desktop-icons/activity)  
+
+
+
 
 ## Books
 [Ubuntu 18.04 LTS Desktop: Applications and Administration](https://books.google.lt/books?id=2epmDwAAQBAJ&pg=SA3-PA2&lpg=SA3-PA2&dq=plymouth+gdm+gnome&source=bl&ots=DGTDarBApV&sig=OrK8OpvESrb19heQid__fglj6mk&hl=lt&sa=X&ved=2ahUKEwjn4NLzjLPeAhVIKywKHf1ACu44FBDoATADegQIARAB#v=onepage&q=plymouth%20gdm%20gnome&f=false)
