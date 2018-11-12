@@ -1,0 +1,9 @@
+#!/bin/bash
+
+declare disk=$(lsblk -no pkname /dev/disk/by-label/casper-rw);
+
+
+
+sudo mount /dev/${disk}3 /mnt
+sudo nano /mnt/boot/grub/grub.cfg
+sudo umount /dev/${disk}3 /mnt
