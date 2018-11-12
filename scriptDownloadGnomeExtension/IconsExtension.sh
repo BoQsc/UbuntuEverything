@@ -12,7 +12,7 @@ function remove() {
 }
 
 function rename() {
-  command mv --no-clobber $1
+  command mv -T --no-clobber $1
 }
 
 function move() {
